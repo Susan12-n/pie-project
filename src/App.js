@@ -9,8 +9,8 @@ import "bootstrap/dist/css/bootstrap.css"
 function App() {
   return (
   <Router>
-    <div className="App">
-      <header className="App-header">
+    <div className="">
+      <header className="">
         <h1>Land Management System</h1>
         <Routes>
           <Route  path='/signin'element ={<Signin/>}/>
