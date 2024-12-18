@@ -1,6 +1,8 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 
+
+
 const Getland = () => {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
@@ -29,7 +31,7 @@ useEffect(()=>{
     return ( 
         <div className="">
             {/* to do */}
-            <div className="row">z
+            <div className="row">
                 {land?.slice(4).map((singleland) =>(
 
                 <div className="col-md-3 p-5 ">
